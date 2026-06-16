@@ -9,7 +9,7 @@
 
 - Issue `#12279` is still open.
 - Related PR `#14692` is still open.
-- My fork `jessicalang2595/OpenHands` currently only has a `main` branch.
+- The follow-up implementation branch created from this investigation is now published at `sreytouch/OpenHands:test/v1-pending-message-queueing`.
 - The current `main` branch in my local clone is commit `2a3f06a75d4b166bef77a0240143efdcc092cfc2` from June 9, 2026.
 - That codebase already contains commit `238cab4d08ebb176bf972e37ef55fa40615dbf82` from March 16, 2026: `fix(frontend): prevent chat message loss during websocket disconnections or page refresh (#13380)`.
 
@@ -76,7 +76,7 @@ My current conclusion is:
 
 ### Reproduction Evidence
 
-- Current fork branch available: [jessicalang2595/OpenHands/tree/main](https://github.com/jessicalang2595/OpenHands/tree/main)
+- Current working branch available: [sreytouch/OpenHands/tree/test/v1-pending-message-queueing](https://github.com/sreytouch/OpenHands/tree/test/v1-pending-message-queueing)
 - Current local clone HEAD: `2a3f06a75d4b166bef77a0240143efdcc092cfc2` on June 9, 2026
 - Relevant landed fix: [commit `238cab4d08ebb176bf972e37ef55fa40615dbf82`](https://github.com/OpenHands/OpenHands/commit/238cab4d08ebb176bf972e37ef55fa40615dbf82)
 - Related issue still open: [OpenHands/OpenHands#12279](https://github.com/OpenHands/OpenHands/issues/12279)
@@ -95,10 +95,11 @@ My current conclusion is:
 
 #### Branch Link Note
 
-I have not created or pushed a dedicated `fix-issue-12279` branch yet. I do not want to publish a misleading implementation branch until I first confirm one of these is true:
+At Phase II time, I intentionally did not publish a branch yet because the issue scope looked stale on current `main`. After continuing into Phase III, I published the narrower follow-up work at:
 
-1. the issue is still valid on current `main`, or
-2. maintainers want a follow-up improvement beyond the March 16, 2026 fix.
+- [sreytouch/OpenHands/tree/test/v1-pending-message-queueing](https://github.com/sreytouch/OpenHands/tree/test/v1-pending-message-queueing)
+
+That branch reflects the actual test-coverage contribution that came out of this investigation rather than a misleading "queue support from scratch" implementation.
 
 ---
 

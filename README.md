@@ -5,7 +5,7 @@
 **Issue:** [OpenHands/OpenHands#12279](https://github.com/OpenHands/OpenHands/issues/12279)  
 **Status:** Phase II investigation complete
 
-**Important update as of June 18, 2026:**
+**Important update as of June 14, 2026:**
 
 - Issue `#12279` is still open.
 - Related PR `#14692` is still open.

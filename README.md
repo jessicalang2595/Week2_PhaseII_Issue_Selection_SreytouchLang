@@ -5,11 +5,12 @@
 **Issue:** [OpenHands/OpenHands#12279](https://github.com/OpenHands/OpenHands/issues/12279)  
 **Status:** Phase II investigation complete
 
-**Important update as of June 16, 2026:**
+**Important update as of June 18, 2026:**
 
 - Issue `#12279` is still open.
 - Related PR `#14692` is still open.
 - The follow-up implementation branch created from this investigation is now published at `sreytouch/OpenHands:test/v1-pending-message-queueing`.
+- That follow-up branch has since been submitted upstream as draft PR [OpenHands/OpenHands#14860](https://github.com/OpenHands/OpenHands/pull/14860).
 - The current `main` branch in my local clone is commit `2a3f06a75d4b166bef77a0240143efdcc092cfc2` from June 9, 2026.
 - That codebase already contains commit `238cab4d08ebb176bf972e37ef55fa40615dbf82` from March 16, 2026: `fix(frontend): prevent chat message loss during websocket disconnections or page refresh (#13380)`.
 
@@ -76,7 +77,9 @@ My current conclusion is:
 
 ### Reproduction Evidence
 
+- Phase I issue-selection comment: [jessicalang2595 comment on #12279](https://github.com/OpenHands/OpenHands/issues/12279#issuecomment-4618034397)
 - Current working branch available: [sreytouch/OpenHands/tree/test/v1-pending-message-queueing](https://github.com/sreytouch/OpenHands/tree/test/v1-pending-message-queueing)
+- Later upstream draft PR from this investigation: [OpenHands/OpenHands#14860](https://github.com/OpenHands/OpenHands/pull/14860)
 - Current local clone HEAD: `2a3f06a75d4b166bef77a0240143efdcc092cfc2` on June 9, 2026
 - Relevant landed fix: [commit `238cab4d08ebb176bf972e37ef55fa40615dbf82`](https://github.com/OpenHands/OpenHands/commit/238cab4d08ebb176bf972e37ef55fa40615dbf82)
 - Related issue still open: [OpenHands/OpenHands#12279](https://github.com/OpenHands/OpenHands/issues/12279)
